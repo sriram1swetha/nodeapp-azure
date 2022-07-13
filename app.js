@@ -8,7 +8,7 @@ app.use(express.json());
 
 app.get('/', (req, res) => {
   console.log('Sucess..!')
-  res.json({ message: 'Hello, From USA' })
+  res.json({ message: 'Hello, From Azure' })
 });
 
 
